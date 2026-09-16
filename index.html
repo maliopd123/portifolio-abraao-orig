@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#050506" />
+    <meta name="description" content="Conheça Abraão Lins, estudante do 3º ano do ensino médio no IFRO. Minha história, meu interesse em tecnologia e minha curiosidade pela área da saúde." />
+    <title>Abraão Lins — Meu portfólio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23050506'/%3E%3Ctext x='8' y='30' font-size='30' font-family='Arial' font-weight='bold' fill='%23ccff00'%3EA%3C/text%3E%3C/svg%3E" />
+    <style>body{margin:0;background:#050506;color:#f0f0e9;font-family:Arial,sans-serif}.startup{padding:12vh 8vw;line-height:1.8}.startup a{color:#ccff00}.startup h1{letter-spacing:-.04em;font-size:clamp(32px,6vw,70px)}</style>
+  </head>
+  <body>
+    <div id="root"><div class="startup"><p>ABRAÃO LINS / PORTFÓLIO PESSOAL</p><h1>SEJA BEM-VINDO.</h1><p id="startup-help">Carregando meu portfólio…</p></div></div>
+    <noscript>Ative o JavaScript para visualizar a experiência interativa.</noscript>
+    <script>
+      function showStartupHelp() {
+        var help = document.getElementById('startup-help');
+        if (help) help.innerHTML = 'Se a aplicação não carregar, execute <code>npm.cmd run dev</code> no terminal do projeto e abra <a href="http://localhost:5173/">http://localhost:5173/</a>. Esta versão React precisa do servidor Vite.';
+      }
+      if (location.protocol === 'file:') showStartupHelp();
+      setTimeout(showStartupHelp, 8000);
+    </script>
+    <script type="module" src="/src/App.jsx" onerror="showStartupHelp()"></script>
+  </body>
+</html>
